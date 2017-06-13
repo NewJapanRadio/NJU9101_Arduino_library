@@ -6,9 +6,9 @@
 2. Install to Arduino as library from the zip archive.  
    see also [Installing Additional Arduino Libraries](https://www.arduino.cc/en/Guide/Libraries)
 
-## API Docments
+## Reference Manual
 
-[NJU9101 Arduino Library API Docs](https://newjapanradio.github.io/NJU9101_Arduino_library)
+[NJU9101 Arduino Library Reference Manual](https://newjapanradio.github.io/NJU9101_Arduino_library)
 
 ## Example
 
