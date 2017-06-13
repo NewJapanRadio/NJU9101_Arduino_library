@@ -1,0 +1,12 @@
+<map id="Register Values" name="Register Values">
+<area shape="rect" id="node1" href="$group__SYSPRESET.html" title="SYSPRESET" alt="" coords="168,5,269,32"/>
+<area shape="rect" id="node2" href="$group__STATUS__REG.html" title="STATUS" alt="" coords="183,56,255,83"/>
+<area shape="rect" id="node3" href="$group__CTRL__REG.html" title="CTRL" alt="" coords="191,107,246,133"/>
+<area shape="rect" id="node4" href="$group__BLKCONN2__REG.html" title="BLKCONN2" alt="" coords="173,157,264,184"/>
+<area shape="rect" id="node5" href="$group__BLKCONN1__REG.html" title="BLKCONN1" alt="" coords="173,208,264,235"/>
+<area shape="rect" id="node6" href="$group__BLKCONN0__REG.html" title="BLKCONN0" alt="" coords="173,259,264,285"/>
+<area shape="rect" id="node7" href="$group__ROMCTRL__REG.html" title="ROMCTRL" alt="" coords="177,309,261,336"/>
+<area shape="rect" id="node8" href="$group__ADCONV__REG.html" title="ADCONV" alt="" coords="180,360,257,387"/>
+<area shape="rect" id="node10" href="$group__ANAGAIN__REG.html" title="ANAGAIN" alt="" coords="179,411,259,437"/>
+<area shape="rect" id="node11" href="$group__BLKCTRL__REG.html" title="BLKCTRL" alt="" coords="179,461,258,488"/>
+</map>

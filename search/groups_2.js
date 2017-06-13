@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ctrl',['CTRL',['../group___c_t_r_l___r_e_g.html',1,'']]]
+  ['ctrl',['CTRL',['../group__CTRL__REG.html',1,'']]]
 ];

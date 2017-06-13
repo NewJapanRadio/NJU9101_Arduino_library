@@ -1,0 +1,5 @@
+<map id="NJU9101Class::read" name="NJU9101Class::read">
+<area shape="rect" id="node2" href="$classNJU9101Class.html#a7ecc3b02f7f2cd1449b7e24d0a403b98" title="Reset the device. " alt="" coords="211,5,355,32"/>
+<area shape="rect" id="node3" href="$classNJU9101Class.html#ab558c1faf9c70d00519b527e2710f73c" title="Awake internal oscillator. " alt="" coords="193,56,373,83"/>
+<area shape="rect" id="node4" href="$classNJU9101Class.html#a59c41d686a8d79e2e6e4f7cb9a9f111c" title="Wait for end of conversion. " alt="" coords="200,107,367,133"/>
+</map>

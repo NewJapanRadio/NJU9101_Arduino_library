@@ -1,0 +1,4 @@
+<map id="NJU9101Class::reset" name="NJU9101Class::reset">
+<area shape="rect" id="node2" href="$classNJU9101Class.html#a84d72dd2206e83847f61ce4f98403c68" title="Write register via I2C. " alt="" coords="197,5,340,32"/>
+<area shape="rect" id="node3" href="$classNJU9101Class.html#a2ef84b6738c54480b07d3f8be6dde4b5" title="Read register via I2C. " alt="" coords="199,56,339,83"/>
+</map>

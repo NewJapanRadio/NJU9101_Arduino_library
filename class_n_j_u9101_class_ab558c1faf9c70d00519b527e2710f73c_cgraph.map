@@ -1,4 +1,0 @@
-<map id="NJU9101Class::awake_osc" name="NJU9101Class::awake_osc">
-<area shape="rect" id="node2" href="$class_n_j_u9101_class.html#a84d72dd2206e83847f61ce4f98403c68" title="Write register via I2C. " alt="" coords="233,5,376,32"/>
-<area shape="rect" id="node3" href="$class_n_j_u9101_class.html#a2ef84b6738c54480b07d3f8be6dde4b5" title="Read register via I2C. " alt="" coords="235,56,375,83"/>
-</map>
