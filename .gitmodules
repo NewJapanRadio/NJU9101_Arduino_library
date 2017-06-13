@@ -1,0 +1,4 @@
+[submodule "docs"]
+	path = docs
+	url = https://github.com/NewJapanRadio/NJU9101_Arduino_library.git
+	branch = gh-pages
