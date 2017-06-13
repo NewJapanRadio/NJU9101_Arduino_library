@@ -1,0 +1,12 @@
+<map id="Register Values" name="Register Values">
+<area shape="rect" id="node1" href="$group___s_y_s_p_r_e_s_e_t.html" title="SYSPRESET" alt="" coords="168,5,269,32"/>
+<area shape="rect" id="node2" href="$group___s_t_a_t_u_s___r_e_g.html" title="STATUS" alt="" coords="183,56,255,83"/>
+<area shape="rect" id="node3" href="$group___c_t_r_l___r_e_g.html" title="CTRL" alt="" coords="191,107,246,133"/>
+<area shape="rect" id="node4" href="$group___b_l_k_c_o_n_n2___r_e_g.html" title="BLKCONN2" alt="" coords="173,157,264,184"/>
+<area shape="rect" id="node5" href="$group___b_l_k_c_o_n_n1___r_e_g.html" title="BLKCONN1" alt="" coords="173,208,264,235"/>
+<area shape="rect" id="node6" href="$group___b_l_k_c_o_n_n0___r_e_g.html" title="BLKCONN0" alt="" coords="173,259,264,285"/>
+<area shape="rect" id="node7" href="$group___r_o_m_c_t_r_l___r_e_g.html" title="ROMCTRL" alt="" coords="177,309,261,336"/>
+<area shape="rect" id="node8" href="$group___a_d_c_o_n_v___r_e_g.html" title="ADCONV" alt="" coords="180,360,257,387"/>
+<area shape="rect" id="node10" href="$group___a_n_a_g_a_i_n___r_e_g.html" title="ANAGAIN" alt="" coords="179,411,259,437"/>
+<area shape="rect" id="node11" href="$group___b_l_k_c_t_r_l___r_e_g.html" title="BLKCTRL" alt="" coords="179,461,258,488"/>
+</map>
