@@ -48,14 +48,14 @@ bool NJU9101Class::reset() {
       // I2C read will be failed.
       return false;
     }
-  } while ((rd | STATUS_BOOT) == 1);
+  } while (rd & STATUS_BOOT);
   return true;
 }
 
 bool NJU9101Class::awake_osc() {
   uint8_t wd = BLKCTRL_OSC_POWER_DOWN_NEVER;
   uint8_t rd = 0;
-  NJU9101Class::write(NJU9101_ADDRESS_CTRL, &wd, 1);
+  NJU9101Class::write(NJU9101_ADDRESS_BLKCTRL, &wd, 1);
   // wait for wake up
   do {
     NJU9101Class::read(NJU9101_ADDRESS_STATUS, &rd, 1);
@@ -63,7 +63,7 @@ bool NJU9101Class::awake_osc() {
       // I2C read will be failed.
       return false;
     }
-  } while ((rd | STATUS_CLKRUN) == 0);
+  } while ((rd & STATUS_CLKRUN) == 0);
   return true;
 }
 
