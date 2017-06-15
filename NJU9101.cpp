@@ -40,10 +40,10 @@ void NJU9101Class::write(Address address, uint8_t data[], size_t length) {
 bool NJU9101Class::reset() {
   uint8_t wd = CTRL_RST;
   uint8_t rd = 0;
-  NJU9101Class::write(NJU9101_ADDRESS_CTRL, &wd, 1);
+  this->write(NJU9101_ADDRESS_CTRL, &wd, 1);
   // wait for boot
   do {
-    NJU9101Class::read(NJU9101_ADDRESS_STATUS, &rd, 1);
+    this->read(NJU9101_ADDRESS_STATUS, &rd, 1);
     if (rd == 0xff) {
       // I2C read will be failed.
       return false;
@@ -55,10 +55,10 @@ bool NJU9101Class::reset() {
 bool NJU9101Class::awake_osc() {
   uint8_t wd = BLKCTRL_OSC_POWER_DOWN_NEVER;
   uint8_t rd = 0;
-  NJU9101Class::write(NJU9101_ADDRESS_BLKCTRL, &wd, 1);
+  this->write(NJU9101_ADDRESS_BLKCTRL, &wd, 1);
   // wait for wake up
   do {
-    NJU9101Class::read(NJU9101_ADDRESS_STATUS, &rd, 1);
+    this->read(NJU9101_ADDRESS_STATUS, &rd, 1);
     if (rd == 0xff) {
       // I2C read will be failed.
       return false;
@@ -70,7 +70,7 @@ bool NJU9101Class::awake_osc() {
 bool NJU9101Class::wait_eoc() {
   uint8_t rd = 0;
   do {
-    NJU9101Class::read(NJU9101_ADDRESS_STATUS, &rd, 1);
+    this->read(NJU9101_ADDRESS_STATUS, &rd, 1);
     if (rd == 0xff) {
       // I2C read will be failed.
       return false;
